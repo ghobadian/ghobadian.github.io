@@ -1,0 +1,408 @@
+/* ==============================================
+
+Template: ukieCard
+Version: 1.8.1
+Author:	Ukieweb
+
+============================================== */
+
+@media (max-width: 1230px) {
+    #wraper{
+        width: 100%;
+    }
+    .home-content img {
+        vertical-align: middle;
+        width: 100%;
+    }
+
+    .home-content a .port-item-cont {
+        opacity: 1;
+    }
+    .menu-style3 {
+        margin: 23px 0;
+    }
+    .foto-content-man{
+        height: 446px;
+    }
+    .menu-style4 ul {
+        margin: 53px 0;
+    }
+    .foto-content-woman{
+        height: 446px;
+    }
+    .language-skills{
+        margin-bottom: 30px;
+    }
+
+    .today {
+        padding: 121px 0;
+    }
+}
+
+@media (max-width: 1199px) {
+    #contents .blog .post {
+        border-bottom: 1px solid #ededed;
+        padding-bottom: 48px;
+    }
+    #contents .blog .last {
+        border: 0;
+        padding-bottom: 0;
+    }
+    .padding-bottom {
+        padding-bottom: 30px;
+    }
+    .pricing .col-xs-6, .col-sm-6 {
+        margin-bottom: 30px;
+    }
+    .blog .widget:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .menu-style3 {
+        margin: 15px 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .row{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .menu .menu-li {
+        margin-bottom: 20px;
+    }
+    .footer .col-sm-6{
+        text-align: left;
+        margin: 5px 0;
+    }
+    .col-xs-12, .col-sm-12{
+        margin-bottom: 30px;
+    }
+    .col-xs-12:last-child, .col-sm-12:last-child{
+        margin-bottom: 0px;
+    }
+
+    .head .social ul {
+        text-align: center;
+    }
+    .head .social li {
+        margin: 5px 0 5px 8px;
+    }
+    .home-content .col-xs-12, .col-sm-12 {
+        margin-bottom: 0;
+    }
+    .home-content img {
+        vertical-align: middle;
+        width: 100%;
+    }
+    .menu-style3 {
+        margin: 5px 0;
+    }
+    .menu-style3 .title-header {
+        line-height: 40px;
+        font-size: 36px;
+        margin: 0;
+    }
+    .menu-style3 .sub-title-header {
+        line-height: 16px;
+        font-size: 14px;
+        margin: 0;
+    }
+    .menu-style3 li {
+        min-height: 60px;
+    }
+    .foto-content-man{
+        height: 334px;
+    }
+    .menu-style4 ul {
+        list-style: none;
+        padding-left: 30px;
+        margin: 37px 0;
+    }
+    .menu-style4 li {
+        margin: 20px 0;
+    }
+    .menu-style4 .title-header {
+        font-size: 36px;
+    }
+    .foto-content-woman{
+        height: 334px;
+    }
+    .fancybox-close {
+        top: 1px;
+        right: 1px;
+    }
+    .fancybox-next span, .fancybox-prev span {
+        display: none;
+    }
+    .language-skills{
+        margin-bottom: 30px;
+    }
+    .testimonials .col-sm-5, .testimonials .col-lg-5{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .testimonials .foto, .testimonials .col-sm-5 p, .testimonials h4{
+        float: none;
+        text-align: center;
+        margin-right: 0;
+    }
+    .testimonials .flexslider{
+         text-align: center;
+    }
+    .testimonials .flexslider .flex-direction-nav{
+        text-align: left;
+    }
+
+    .calendar-content {
+        max-width: 100%;
+    }
+
+    .today .date {
+        padding: 13% 5%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-wrapper {
+        display: none;
+    }
+    .wraper-card .head .logo-page {
+        margin-right: 0;
+        float: none;
+        text-align: center;
+    }
+    #wraper{
+        font-size: 14px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .home-header{
+        text-align: center;
+    }
+    .home-header .foto{
+        display: block;
+        margin: 0 auto;
+    }
+    .home-header .title{
+        margin-top: 0px;
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .home-header .sub-title {
+        line-height: 28px;
+        font-size: 20px;
+    }
+    .head .logo-page {
+        margin-right: 10px;
+    }
+    .head .title {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .head .sub-title {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .block-grey {
+        padding: 20px 10px;
+        font-size: 14px;
+    }
+    .skills .circle-progress-block {
+        display: block;
+        margin: 0 auto;
+    }
+    .skills .circle-progress-label {
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 24px;
+    }
+    .footer .col-sm-6, .footer .col-xs-12{
+        text-align: center;
+    }
+
+    .head .social ul {
+        text-align: center;
+    }
+    .head .social li {
+        margin: 7px 6px;
+    }
+    .head .foto {
+        float: none;
+        margin-right: 0;
+    }
+    .head .col-xs-12 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .home-content .col-xs-12, .col-sm-12 {
+        margin-bottom: 0;
+    }
+    .home-content img {
+        vertical-align: middle;
+        width: 100%;
+    }
+    .home-content a .port-item-cont {
+        opacity: 1;
+    }
+    .menu-style4 ul {
+        padding-left: 35%;
+    }
+    .language-skills{
+        margin-bottom: 30px;
+    }
+    .testimonials .col-xs-12 table{
+        margin-top: 25px;
+    }
+
+    .today {
+        padding: 40px 0;
+        border-bottom: 1px solid #ededed;
+        border-right: none;
+    }
+
+    .today .date {
+        margin: 0 auto 3%;
+        padding: 13% 5%;
+    }
+
+    .custom-header {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .today .date {
+        margin: 0 auto 3%;
+        padding: 5% 5%;
+    }
+    .testimonials .col-xs-12 {
+        padding-left: 15px;
+        border-left: none;
+        margin-bottom: 0;
+        padding-right: 15px;
+    }
+
+    .testimonials .col-xs-12 h4 + p {
+        padding-bottom: 25px;
+        border-bottom: 1px solid #c8c8c8;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 625px) {
+    .blog .post-user-info{
+        width: 100%;
+    }
+    .blog .post-comment-txt{
+        width: 100%;
+    }
+    .blog .post-comment-txt:after, .blog .post-comment-txt:before {
+        border: 0;
+    }
+    .blog .post iframe{
+        height: 197px;
+    }
+    .menu-style4 ul {
+        padding-left: 30%;
+    }
+    .language-skills{
+        margin-bottom: 30px;
+    }
+
+    .today .date {
+        padding: 6% 5%;
+    }
+}
+
+@media (max-width: 510px) {
+    .today .date {
+        padding: 8% 5%;
+    }
+    .calendar-content .notes li {
+        display: block;
+        margin-right: 0;
+    }
+    .calendar-content .today-note, .calendar-content .calendar-note {
+        margin-left: 6%;
+        width: auto;
+    }
+}
+
+@media (max-width: 425px) {
+    .head .col-xs-12{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .head .social ul{
+        text-align: center;
+    }
+    .head .social li{
+        margin: 7px 6px;
+    }
+    .head .foto{
+        float: none;
+        margin-right: 0;
+    }
+    .home-content .col-xs-12, .col-sm-12{
+        margin-bottom: 0;
+    }
+    .home-content a .port-item-cont{
+        opacity: 1;
+    }
+    .menu-style4 ul {
+        padding-left: 25%;
+    }
+    .language-skills{
+        margin-bottom: 30px;
+    }
+    .head-blog .head .flex-direction-nav li a.next, .head-blog .head .flex-direction-nav li a.prev, .head-blog .head .btn-close, .head-blog .head.search-head .btn-search {
+        width: 24px;
+        height: 24px;
+        margin-top: 22px;
+    }
+
+    .today .date {
+        padding: 9% 5%;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .home-content .foto {
+        display: none;
+    }
+    .foto-content-man{
+        display: none;
+    }
+    .menu-style4 ul {
+        padding-left: 20%;
+    }
+    .foto-content-woman{
+        display: none;
+    }
+    .language-skills{
+        margin-bottom: 30px;
+    }
+    .head-blog .head .flex-direction-nav li a.next,.head-blog .head .flex-direction-nav li a.prev,.head-blog .head .btn-close,.head-blog .head.search-head .btn-search {
+        width: 20px;
+        height: 20px;
+        margin-top: 26px;
+    }
+
+    .today .date {
+        padding: 10% 5%;
+    }
+}
+
+@media (max-width: 320px) {
+    .today .date {
+        padding: 12% 5%;
+    }
+}

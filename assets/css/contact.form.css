@@ -1,0 +1,95 @@
+/* ==============================================
+
+Template: ukieCard
+Version: 1.8.1
+Author:	Ukieweb
+
+============================================== */
+
+.style-contact-form{
+    left: 0;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 365px;
+    height: 100%;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    background-color: #ffffff;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    border: 1px solid #C3C3C3;
+    z-index: 9999999;
+}
+.style-contact-form .btn-close-form{
+    width: 36px;
+    height: 36px;
+    margin-top: 45px;
+    background-image: url("../img/close.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: inline-block;
+    cursor: pointer;
+}
+.style-contact-form .contact-form{
+    padding: 0 30px;
+    text-align: right;
+}
+.style-contact-form .contact-form p{
+    margin: 12px 0 38px 0;
+    font-weight: 400;
+    text-align: left;
+}
+.style-contact-form .title-contact{
+    margin: 25px 0 16px 0;
+    text-align: left;
+    line-height: 36px;
+}
+.style-contact-form .contact-form input[type="submit"]{
+    float: left;
+}
+.style-open-form{
+    display: block;
+    cursor: pointer;
+    position: fixed;
+    z-index: 9999999;
+    bottom: 100px;
+    left: 10px;
+}
+.style-open-form .ukie-icons{
+    font-size: 16px;
+    width: 48px;
+    height: 48px;
+    line-height: 44px;
+    margin: 0;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+}
+.style-off-form{
+    left: -365px;
+}
+.hi-icon:before {
+    font-family: 'FontAwesome';
+    font-size: 16px;
+    line-height: 45px;
+}
+
+.hi-icon-screen:before {
+    content: "\f003";
+}
+.hi-icon-mobile:before {
+    content: "\f003";
+}
+.hi-icon-effect-8 .hi-icon:hover:after {
+    -webkit-animation: sonarEffect 1.3s ease-out 75ms;
+    -moz-animation: sonarEffect 1.3s ease-out 75ms;
+    animation: sonarEffect 1.3s ease-out 75ms;
+}
+
+@media (max-width: 991px){
+    .style-contact-form, .style-open-form{
+        display: none;
+    }
+}

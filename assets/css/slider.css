@@ -1,0 +1,80 @@
+/* Slider
+/*-----------------------------------------------------------------------------------*/
+.flex-container a:active, .flexslider a:active {
+    outline: none;
+}
+.slides, .flex-control-nav, .flex-direction-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* FlexSlider Necessary Styles
+*********************************/
+.flexslider .slides > li {
+    display: none;
+}
+.slides:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+/* Direction Nav */
+.flex-direction-nav li{
+    display: inline-block;
+}
+.flex-direction-nav li a {
+    width: 35px;
+    height: 35px;
+    line-height: 33px;
+    text-align: center;
+    padding: 0;
+    display: inline-block;
+    zoom: 1;
+    margin: 0 10px 0 0;
+    border-radius: 50%;
+    opacity: 1;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 16px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+/* Control Nav */
+.flex-control-nav {
+    width: 100%;
+    position: absolute;
+    bottom: -30px;
+    text-align: center;
+}
+.flex-control-nav li {
+    margin: 0 0 0 5px;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+}
+.flex-control-nav li:first-child {
+    margin: 0;
+}
+.flex-control-nav li a {
+    width: 13px;
+    height: 13px;
+    display: block;
+    cursor: pointer;
+    text-indent: -9999px;
+}
+.flex-control-nav li a:hover {
+    background-position: 0 -13px;
+}
+.flex-control-nav li a.active {
+    background-position: 0 -26px;
+    cursor: default;
+}
+.flex-control-nav{
+    display: none;
+}
