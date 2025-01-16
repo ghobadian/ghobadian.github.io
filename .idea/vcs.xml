@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ghobadian/themes/gokarna" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ghobadian/themes/gokarna/exampleSite/themes/gokarna" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ghobadian/themes/hugo-simple" vcs="Git" />
   </component>
 </project>
