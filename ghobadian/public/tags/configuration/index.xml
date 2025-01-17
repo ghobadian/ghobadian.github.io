@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Configuration on Ghobadian</title><link>http://localhost:1313/tags/configuration/</link><description>Recent content in Configuration on Ghobadian</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 06 May 2020 21:29:01 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/configuration/index.xml" rel="self" type="application/rss+xml"/><item><title>Theme Documentation - Basics</title><link>http://localhost:1313/posts/theme-documentation-basics/</link><pubDate>Fri, 06 Mar 2020 21:29:01 +0800</pubDate><guid>http://localhost:1313/posts/theme-documentation-basics/</guid><description>&lt;p>Gokarna is an opinionated theme with a focus on minimalism and simplicity.&lt;/p>
+&lt;h2 id="installation">Installation&lt;/h2>
+&lt;p>Follow these steps to initialize your new website.&lt;/p>
+&lt;p>If you are new to &lt;a href="https://gohugo.io/">Hugo&lt;/a>, we suggest following this &lt;a href="https://gohugo.io/getting-started/quick-start/">great documentation for beginners&lt;/a>.&lt;/p>
+&lt;!-- Set human-readable heading IDs:
+ https://gohugo.io/content-management/cross-references/#heading-ids -->
+&lt;h3 id="create-your-project">a. Create Your Project&lt;/h3>
+&lt;p>Hugo provides a &lt;code>new&lt;/code> subcommand to create a new website:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>hugo new site my-website
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cd my-website
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="install-the-theme">b. Install the Theme&lt;/h3>
+&lt;p>The theme&amp;rsquo;s repository is: &lt;a href="https://github.com/gokarna-theme/gokarna-hugo">https://github.com/gokarna-theme/gokarna-hugo&lt;/a>.&lt;/p>
+&lt;p>Make this repository a submodule of your Git project:&lt;/p></description></item><item><title>Theme Documentation - Advanced</title><link>http://localhost:1313/posts/theme-documentation-advanced/</link><pubDate>Wed, 06 May 2020 21:29:01 +0800</pubDate><guid>http://localhost:1313/posts/theme-documentation-advanced/</guid><description>&lt;p>Gokarna is an opinionated theme with a focus on minimalism and simplicity.&lt;/p>
+&lt;h2 id="content-types">Content Types&lt;/h2>
+&lt;p>This theme supports two types of content types: &lt;code>post&lt;/code> and &lt;code>page&lt;/code>. To specify them, you need to add them in your markdown metadata.&lt;/p>
+&lt;h3 id="post">Post&lt;/h3>
+&lt;p>This is the default blog post type which will be shown in your &amp;ldquo;Posts&amp;rdquo; section and who&amp;rsquo;s tags will be indexed. Basically, a normal blog post.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>title: &amp;#34;Hello, world!&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>date: 2021-01-01
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>description: &amp;#34;A blog post&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>image: &amp;#34;/path/to/image.png&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>type: &amp;#34;post&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>tags: [&amp;#34;blog&amp;#34;]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span># Hello World!
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>This is my blog.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="page">Page&lt;/h3>
+&lt;p>We introduced this type to distinguish between blog posts and normal markdown pages. The reason to create this was to give the user complete freedom in creating their website. You can use this to create a portfolio of your projects or showcase your designs. The possibilites are endless and the choice is yours.&lt;/p></description></item></channel></rss>

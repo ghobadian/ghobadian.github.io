@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ghobadian</title><link>http://localhost:1313/</link><description>Recent content on Ghobadian</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 16 Apr 2021 23:39:49 +0530</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml"/><item><title>Theme Documentation - Basics</title><link>http://localhost:1313/posts/theme-documentation-basics/</link><pubDate>Fri, 06 Mar 2020 21:29:01 +0800</pubDate><guid>http://localhost:1313/posts/theme-documentation-basics/</guid><description>&lt;p>Gokarna is an opinionated theme with a focus on minimalism and simplicity.&lt;/p>
+&lt;h2 id="installation">Installation&lt;/h2>
+&lt;p>Follow these steps to initialize your new website.&lt;/p>
+&lt;p>If you are new to &lt;a href="https://gohugo.io/">Hugo&lt;/a>, we suggest following this &lt;a href="https://gohugo.io/getting-started/quick-start/">great documentation for beginners&lt;/a>.&lt;/p>
+&lt;!-- Set human-readable heading IDs:
+ https://gohugo.io/content-management/cross-references/#heading-ids -->
+&lt;h3 id="create-your-project">a. Create Your Project&lt;/h3>
+&lt;p>Hugo provides a &lt;code>new&lt;/code> subcommand to create a new website:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>hugo new site my-website
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cd my-website
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="install-the-theme">b. Install the Theme&lt;/h3>
+&lt;p>The theme&amp;rsquo;s repository is: &lt;a href="https://github.com/gokarna-theme/gokarna-hugo">https://github.com/gokarna-theme/gokarna-hugo&lt;/a>.&lt;/p>
+&lt;p>Make this repository a submodule of your Git project:&lt;/p></description></item><item><title>Theme Documentation - Advanced</title><link>http://localhost:1313/posts/theme-documentation-advanced/</link><pubDate>Wed, 06 May 2020 21:29:01 +0800</pubDate><guid>http://localhost:1313/posts/theme-documentation-advanced/</guid><description>&lt;p>Gokarna is an opinionated theme with a focus on minimalism and simplicity.&lt;/p>
+&lt;h2 id="content-types">Content Types&lt;/h2>
+&lt;p>This theme supports two types of content types: &lt;code>post&lt;/code> and &lt;code>page&lt;/code>. To specify them, you need to add them in your markdown metadata.&lt;/p>
+&lt;h3 id="post">Post&lt;/h3>
+&lt;p>This is the default blog post type which will be shown in your &amp;ldquo;Posts&amp;rdquo; section and who&amp;rsquo;s tags will be indexed. Basically, a normal blog post.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>title: &amp;#34;Hello, world!&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>date: 2021-01-01
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>description: &amp;#34;A blog post&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>image: &amp;#34;/path/to/image.png&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>type: &amp;#34;post&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>tags: [&amp;#34;blog&amp;#34;]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span># Hello World!
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>This is my blog.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="page">Page&lt;/h3>
+&lt;p>We introduced this type to distinguish between blog posts and normal markdown pages. The reason to create this was to give the user complete freedom in creating their website. You can use this to create a portfolio of your projects or showcase your designs. The possibilites are endless and the choice is yours.&lt;/p></description></item><item><title>Emoji Support</title><link>http://localhost:1313/posts/emoji-support/</link><pubDate>Thu, 01 Oct 2020 17:55:28 +0800</pubDate><guid>http://localhost:1313/posts/emoji-support/</guid><description>&lt;p>Emoji can be enabled in a Hugo project in a number of ways.&lt;/p>
+&lt;p>The &lt;a href="https://gohugo.io/functions/emojify/">&lt;code>emojify&lt;/code>&lt;/a> function can be called directly in templates or &lt;a href="https://gohugo.io/templates/shortcode-templates#inline-shortcodes">Inline Shortcodes&lt;/a>.&lt;/p>
+&lt;p>To enable emoji globally, set &lt;code>enableEmoji&lt;/code> to &lt;code>true&lt;/code> in your &lt;a href="https://gohugo.io/getting-started/configuration/">site configuration&lt;/a> and then you can type emoji shorthand codes directly in content files.&lt;/p>
+&lt;p>These begin and end with a &lt;strong>colon&lt;/strong> and include the &lt;strong>code&lt;/strong> of an emoji:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>Gone camping! {?:}tent: Be back soon.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>That is so funny! {?:}joy:
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The rendered output looks like this:&lt;/p></description></item><item><title>Lorem Ipsum</title><link>http://localhost:1313/posts/lorem-ipsum/</link><pubDate>Fri, 16 Apr 2021 23:39:49 +0530</pubDate><guid>http://localhost:1313/posts/lorem-ipsum/</guid><description>&lt;!DOCTYPE html>
+&lt;html lang="en">
+&lt;head>
+ &lt;meta charset="UTF-8">
+ &lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
+ &lt;title>CV&lt;/title>
+ &lt;style>
+ .container {
+ display: grid;
+ grid-template-columns: 3fr 2fr;
+ gap: 20px;
+ }
+ .section {
+ margin-bottom: 20px;
+ }
+ .section h1 {
+ margin-bottom: 10px;
+ border-bottom: 2px solid #ddd;
+ padding-bottom: 5px;
+ }
+ .skills, .certificates {
+ list-style-type: none;
+ padding: 0;
+ }
+ .skills li, .certificates li {
+ margin: 5px 0;
+ }
+ .tag {
+ display: inline-block;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+ padding: 5px 10px;
+ margin: 5px 5px 0 0;
+ }
+ .item a {
+ text-decoration: none;
+ }
+ .tag:hover {
+ color: var(--accent-color);
+ border-color: var(--accent-color)
+ }
+ .item {
+ margin-bottom: 15px;
+ }
+ .item h2 {
+ margin: 5px 0;
+ }
+ .item h3 {
+ margin: 2px 0;
+ }
+ .item span {
+ font-size: 18px;
+ color: gray;
+ }
+ .item ul {
+ padding-left: 15px;
+ }
+ .hr {
+ border: none; 
+ border-top: 2px dashed gray;
+ margin: 0;
+ }
+ &lt;/style>
+&lt;/head>
+&lt;body>
+&lt;div class="container">
+ &lt;div>
+ &lt;div class="section">
+ &lt;h1>SUMMARY&lt;/h1>
+ &lt;p>Junior Software Developer with over 2 years of expertise in developing robust Restful applications, specializing in micro-services architecture and cloud infrastructure. Proficient in enhancing application performance through the integration of advanced technologies. Adept in DevOps practices and skilled in establishing efficient CI/CD pipelines.&lt;/p></description></item><item><title>Markdown Syntax Guide</title><link>http://localhost:1313/posts/markdown-syntax-1/</link><pubDate>Wed, 19 Jun 2019 00:00:00 +0000</pubDate><guid>http://localhost:1313/posts/markdown-syntax-1/</guid><description>&lt;p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p></description></item><item><title>Markdown Syntax Guide</title><link>http://localhost:1313/posts/markdown-syntax-2/</link><pubDate>Wed, 19 Jun 2019 00:00:00 +0000</pubDate><guid>http://localhost:1313/posts/markdown-syntax-2/</guid><description>&lt;p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p></description></item><item><title/><link>http://localhost:1313/index-about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/index-about/</guid><description>&lt;!DOCTYPE html>
+&lt;html lang="en">
+&lt;head>
+ &lt;meta charset="UTF-8">
+ &lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
+ &lt;title>CV&lt;/title>
+ &lt;style>
+ .container {
+ display: grid;
+ grid-template-columns: 3fr 2fr;
+ gap: 20px;
+ }
+ .section {
+ margin-bottom: 20px;
+ }
+ .section h1 {
+ margin-bottom: 10px;
+ border-bottom: 2px solid #ddd;
+ padding-bottom: 5px;
+ }
+ .tag {
+ display: inline-block;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+ padding: 5px 10px;
+ margin: 5px 5px 0 0;
+ }
+ .item a {
+ text-decoration: none;
+ }
+ .tag:hover {
+ color: var(--accent-color);
+ border-color: var(--accent-color)
+ }
+ .item {
+ margin-bottom: 15px;
+ }
+ .item h2 {
+ margin: 5px 0;
+ }
+ .item h3 {
+ margin: 2px 0;
+ }
+ .item span {
+ font-size: 18px;
+ color: gray;
+ }
+ .item ul {
+ padding-left: 15px;
+ }
+ .hr {
+ border: none; 
+ border-top: 2px dashed gray;
+ margin: 0;
+ }
+ &lt;/style>
+&lt;/head>
+&lt;body>
+&lt;div class="container">
+ &lt;div>
+ &lt;div class="section">
+ &lt;h1>SUMMARY&lt;/h1>
+ &lt;p>Junior Software Developer with over 2 years of expertise in developing robust Restful applications, specializing in micro-services architecture and cloud infrastructure. Proficient in enhancing application performance through the integration of advanced technologies. Adept in DevOps practices and skilled in establishing efficient CI/CD pipelines.&lt;/p></description></item><item><title/><link>http://localhost:1313/temp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/temp/</guid><description>&lt;!DOCTYPE html>
+&lt;html lang="en">
+&lt;head>
+ &lt;meta charset="UTF-8">
+ &lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
+ &lt;title>CV&lt;/title>
+ &lt;style>
+ body {
+ font-family: Arial, sans-serif;
+ line-height: 1.6;
+ margin: 20px;
+ padding: 0;
+ }
+ .container {
+ display: grid;
+ grid-template-columns: 3fr 2fr;
+ gap: 20px;
+ }
+ .section {
+ margin-bottom: 20px;
+ }
+ .section h2 {
+ margin-bottom: 10px;
+ border-bottom: 2px solid #ddd;
+ padding-bottom: 5px;
+ }
+ .skills, .certificates {
+ list-style-type: none;
+ padding: 0;
+ }
+ .skills li, .certificates li {
+ margin: 5px 0;
+ }
+ .tag {
+ display: inline-block;
+ border: 1px solid #ccc;
+
+ border-radius: 5px;
+ padding: 5px 10px;
+ margin: 5px 5px 0 0;
+ }
+ .tag:hover {
+ color: var(--accent-color);
+ border-color: var(--accent-color)
+ }
+ .experience-item, .project-item {
+ margin-bottom: 15px;
+ }
+ .experience-item h3, .project-item h3 {
+ margin: 5px 0;
+ font-size: 18px;
+ }
+ .experience-item p, .project-item p {
+ margin: 5px 0 0 0;
+ font-size: 14px;
+ }
+ .experience-item span {
+ display: block;
+ font-size: 14px;
+ color: gray;
+ }
+ &lt;/style>
+&lt;/head>
+&lt;body>
+&lt;div class="container">
+ &lt;div>
+ &lt;!-- Summary Section -->
+ &lt;div class="section">
+ &lt;h2>Summary&lt;/h2>
+ &lt;p>Junior Software Developer with over 2 years of expertise in developing robust Restful applications, specializing in micro-services architecture and cloud infrastructure. Proficient in enhancing application performance through the integration of advanced technologies. Adept in DevOps practices and skilled in establishing efficient CI/CD pipelines.&lt;/p></description></item></channel></rss>
