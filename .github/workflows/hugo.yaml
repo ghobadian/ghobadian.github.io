@@ -55,7 +55,7 @@ jobs:
           echo "Contents of the current directory:"
           pwd
           echo "Contents of the current directory:"
-          tree
+          tree /home/runner/work/
           echo "Contents of the current directory:"
           ls -la
           echo "Contents of the ./public directory:"
