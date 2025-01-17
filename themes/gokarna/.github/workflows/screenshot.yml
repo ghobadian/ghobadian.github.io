@@ -1,0 +1,37 @@
+name: Update screenshots
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-screenshots:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      contents: write
+
+    steps:
+    - name: Check out the code
+      uses: actions/checkout@v3
+
+    - name: Run screenshotter container
+      run: docker run -v $(pwd):/app ghcr.io/gokarna-theme/gokarna-hugo/screenshotter
+
+    - name: Create PR
+      run: |
+        if [[ -z $(git status images --porcelain) ]]; then
+          echo "No changes found"
+          exit 0
+        fi
+
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git checkout -b auto-update-screenshots
+        git add images/
+        git commit -m 'chore: update screenshots'
+        git push origin auto-update-screenshots -f
+        gh pr create -B main -H auto-update-screenshots --title 'chore: update screenshots' --body 'Created by Github action'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

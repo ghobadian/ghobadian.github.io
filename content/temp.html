@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 0;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 3fr 2fr;
+            gap: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            margin-bottom: 10px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .skills, .certificates {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills li, .certificates li {
+            margin: 5px 0;
+        }
+        .tag {
+            display: inline-block;
+            border: 1px solid #ccc;
+
+            border-radius: 5px;
+            padding: 5px 10px;
+            margin: 5px 5px 0 0;
+        }
+        .tag:hover {
+            color: var(--accent-color);
+            border-color: var(--accent-color)
+        }
+        .experience-item, .project-item {
+            margin-bottom: 15px;
+        }
+        .experience-item h3, .project-item h3 {
+            margin: 5px 0;
+            font-size: 18px;
+        }
+        .experience-item p, .project-item p {
+            margin: 5px 0 0 0;
+            font-size: 14px;
+        }
+        .experience-item span {
+            display: block;
+            font-size: 14px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div>
+        <!-- Summary Section -->
+        <div class="section">
+            <h2>Summary</h2>
+            <p>Junior Software Developer with over 2 years of expertise in developing robust Restful applications, specializing in micro-services architecture and cloud infrastructure. Proficient in enhancing application performance through the integration of advanced technologies. Adept in DevOps practices and skilled in establishing efficient CI/CD pipelines.</p>
+        </div>
+        <!-- Experience Section -->
+        <div class="section">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>Java Developer</h3>
+                <span>Dotin</span>
+                <span>Nov 2024 – Present (2m) | Tehran, Iran</span>
+                <p>• Developing switch banking solutions</p>
+            </div>
+            <div class="experience-item">
+                <h3>Java Developer</h3>
+                <span>Sobhan Tech</span>
+                <span>July 2022 – Oct 2023 (1y 4m) | Isfahan, Iran</span>
+                <p>• Increased performance of legacy code by 10% by optimizing duplicate SQL queries.</p>
+                <p>• Implemented the backend of shopiway.ir, laying the groundwork for user registration, product catalog, and checkout processes, resulting in a 10% faster launch.</p>
+                <p>• Extended features of zaberin.ir, improving product accuracy by 20%, and reducing API response times by using cache.</p>
+            </div>
+        </div>
+        <!-- Projects Section -->
+        <div class="section">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>Simple Grading & Course Management System</h3>
+                <span>Open Source Contribution</span>
+                <p>Developed backend for a grading and course management system for university students.</p>
+            </div>
+            <div class="project-item">
+                <h3>Simple Chat App</h3>
+                <span>Open Source Contribution</span>
+                <p>Coded an online chatting app using socket programming and client-server architecture.</p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <!-- Skills Section -->
+        <div class="section">
+            <h2>Skills</h2>
+            <div>
+                <span class="tag">Java</span>
+                <span class="tag">Spring</span>
+                <span class="tag">Git</span>
+                <span class="tag">SQL</span>
+                <span class="tag">OOP</span>
+                <span class="tag">CI/CD</span>
+                <span class="tag">TDD</span>
+                <span class="tag">Redis</span>
+                <span class="tag">MongoDB</span>
+            </div>
+            <div>
+                <span class="tag">Problem Solving</span>
+                <span class="tag">Teamwork</span>
+                <span class="tag">Perseverance</span>
+                <span class="tag">Organization</span>
+                <span class="tag">Time Management</span>
+                <span class="tag">Confidence</span>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Certificates</h2>
+            <ul class="certificates">
+                <li>Advanced Algorithmic Thinking And Data Structure – Quera</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<br>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gay on Ghobadian</title><link>http://localhost:1313/tags/gay/</link><description>Recent content in Gay on Ghobadian</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 06 Mar 2020 21:29:01 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/gay/index.xml" rel="self" type="application/rss+xml"/><item><title>Theme Documentation - Basics</title><link>http://localhost:1313/posts/theme-documentation-basics/</link><pubDate>Fri, 06 Mar 2020 21:29:01 +0800</pubDate><guid>http://localhost:1313/posts/theme-documentation-basics/</guid><description>&lt;p>Gokarna is an opinionated theme with a focus on minimalism and simplicity.&lt;/p>
+&lt;h2 id="installation">Installation&lt;/h2>
+&lt;p>Follow these steps to initialize your new website.&lt;/p>
+&lt;p>If you are new to &lt;a href="https://gohugo.io/">Hugo&lt;/a>, we suggest following this &lt;a href="https://gohugo.io/getting-started/quick-start/">great documentation for beginners&lt;/a>.&lt;/p>
+&lt;!-- Set human-readable heading IDs:
+ https://gohugo.io/content-management/cross-references/#heading-ids -->
+&lt;h3 id="create-your-project">a. Create Your Project&lt;/h3>
+&lt;p>Hugo provides a &lt;code>new&lt;/code> subcommand to create a new website:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>hugo new site my-website
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cd my-website
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="install-the-theme">b. Install the Theme&lt;/h3>
+&lt;p>The theme&amp;rsquo;s repository is: &lt;a href="https://github.com/gokarna-theme/gokarna-hugo">https://github.com/gokarna-theme/gokarna-hugo&lt;/a>.&lt;/p>
+&lt;p>Make this repository a submodule of your Git project:&lt;/p></description></item></channel></rss>
