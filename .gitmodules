@@ -1,12 +1,3 @@
-[submodule "ghobadian/themes/hugo-simple"]
-	path = ghobadian/themes/hugo-simple
-	url = https://github.com/maolonglong/hugo-simple.git
-[submodule "ghobadian/themes/gokarna"]
-	path = ghobadian/themes/gokarna
+[submodule "themes/gokarna"]
+	path = themes/gokarna
 	url = https://github.com/gokarna-theme/gokarna-hugo.git
-[submodule "themes/hugo-resume"]
-	path = themes/hugo-resume
-	url = https://github.com/eddiewebb/hugo-resume.git
-[submodule "ghobadian/themes/hugo-resume"]
-	path = ghobadian/themes/hugo-resume
-	url = https://github.com/eddiewebb/hugo-resume.git
