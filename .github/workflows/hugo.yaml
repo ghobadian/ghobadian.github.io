@@ -45,6 +45,11 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+      - name: Debug working directory
+        run: |
+          echo "Current working directory: $(pwd)"
+          echo "Contents of working directory:"
+          ls -la
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
