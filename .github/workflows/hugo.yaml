@@ -50,6 +50,12 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Debug build directory
+        run: |
+          echo "Contents of the current directory:"
+          ls -la
+          echo "Contents of the ./public directory:"
+          ls -la ./public
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
@@ -62,7 +68,8 @@ jobs:
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-
+        with:
+          path: ./public
 
   # Deployment job
   deploy:
