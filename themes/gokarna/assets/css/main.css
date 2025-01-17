@@ -1,6 +1,6 @@
 :root {
   --content-width: 1120px;
-  --container-width: 810px;
+  --container-width: 950px;
 
   --light-primary-color: 255, 255, 255;
   --light-secondary-color: #dddddd;
@@ -63,6 +63,7 @@ main#content > .container {
 .post.container {
   box-sizing: border-box;
   display: inline-block;
+  width: 96%;
 }
 
 .post-toc {
@@ -71,7 +72,7 @@ main#content > .container {
   padding-left: 50px;
   vertical-align: top;
   /* Would be 25% had there been no margins or border box on all inline blocks */
-  width: 24%;
+  width: 25%;
 }
 
 #toc {
