@@ -43,7 +43,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive
+#          submodules: recursive
           fetch-depth: 0
       - name: Debug working directory
         run: |
