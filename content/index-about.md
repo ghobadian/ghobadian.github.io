@@ -30,7 +30,7 @@
         }
         .tag:hover {
             color: var(--accent-color);
-            border-color: var(--accent-color)
+            border-color: var(--accent-color);
         }
         .item {
             margin-bottom: 15px;
@@ -53,6 +53,42 @@
             border-top: 2px dashed gray;
             margin: 0;
         }
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+            .section h1 {
+                font-size: 1.2rem;
+            }
+            .item span {
+                font-size: 16px;
+            }
+            .tag {
+                font-size: 14px;
+                padding: 3px 8px;
+            }
+        }
+        @media (max-width: 480px) {
+            .section h1 {
+                font-size: 1rem;
+            }
+            .item span {
+                font-size: 14px;
+            }
+            .tag {
+                font-size: 12px;
+                padding: 2px 6px;
+            }
+            .container {
+                padding: 10px;
+            }
+            .item h2 {
+                font-size: 1rem;
+            }
+            .item h3 {
+                font-size: 0.9rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -66,7 +102,7 @@
             <h1>EXPERIENCE</h1>
             <div class="item">
                 <h2>Java Developer</h2>
-                <h3 ><a  href="https://dotin.ir">Dotin</a></h3>
+                <h3 ><a href="https://dotin.ir">Dotin</a></h3>
                 <span>Nov 2024 – Present (2m) | Tehran, Iran</span>
                 <ul>
                     <li>
@@ -96,7 +132,7 @@
             <h1>EDUCATION</h1>
             <div class="item">
                 <h2>B.Sc. in Computer Engineering</h2>
-                <h3 ><a  href="https://en.kntu.ac.ir">K.N. Toosi University of Technology</a></h3>
+                <h3 ><a href="https://en.kntu.ac.ir">K.N. Toosi University of Technology</a></h3>
                 <span>Sept 2021 – Present | Tehran, Iran</span>
                 <p>Helped CE freshmen (and women) understand fundamentals of programming and OOP better.</p>
             </div>
