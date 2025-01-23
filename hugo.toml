@@ -45,7 +45,7 @@ title = "Ghobadian"
 
 
   socialIcons = [
-    {name = "twitter", url = "https://example.com"},
+    {name = "twitter", url = "https://x.com/msghobadian"},
     {name = "linkedin", url = "https://linkedin.com/in/ghobadian"},
     {name = "telegram", url = "https://t.me/msghobadian"},
     {name = "email", url = "mailto:msghobadian80@gmail.com"},
