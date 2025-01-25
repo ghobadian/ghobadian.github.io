@@ -73,13 +73,6 @@ Other Jobs worth mentioning:
 
 **Curiosity and Lifelong Learning**: Always being curious about how and why things work and willing to learn every day.
 
-# Suggestions
-IMO, Governments must step in and help by:
-- Creating a lifelong learning sector: we all need to demolish the old mindset of limiting learning to only schools and universities. In addition, Most schools and universities nowadays mostly teach subjects that aren't needed for the industry. 
-- Supporting individuals in times of up-skilling/re-skilling
-- Widening the range of activities that are considered as jobs. For example, raising a child is one of the most critical job in the world. Parents do it without any supports and that prevents them from doing their best to raise a child which in the long term will damage the society. Other Examples can Environmental Stewardship or Elder care.
-- Providing basic income for citizens
-
 # Suggestions for Governments
 Governments play a critical role in ensuring that citizens can adapt to the rapidly changing job landscape. Here are a few actionable ways governments can support individuals and industries:
 1) Create a Lifelong Learning Sector
