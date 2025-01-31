@@ -127,7 +127,7 @@ Another step is to build good habits. I recommend reading [Atomic Habits](https:
 In this section, the author talks about how he retired at 33 by buying and renting out his houses.
 
 ## How to Negotiate your salary
-It all comes than to supply and demand. If you are the one applying for the job, you have low negotiation power. If you have a referral from another person, you how higher negotiation power. If the employer is ask for you to apply for a position, you have the highest negotiation power.
+It all comes than to supply and demand. If you are the one applying for the job, you have low negotiation power. If you have a referral from another person, you hove higher negotiation power. If the employer asks you to apply for a position, you have the highest negotiation power.
 
 ### First person to name a number loses
 Never ever say a salary range that you are willing to work. Always make the HR manager to give you a number.
