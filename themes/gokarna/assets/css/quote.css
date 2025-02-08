@@ -1,0 +1,52 @@
+.container {
+    z-index: 1;
+    background-color: var(--light-primary-color);
+    padding: 2em;
+}
+blockquote {
+    padding: 2em 1.5em 2em 2em;
+    position: relative;
+}
+blockquote p {
+    /*color: #555;*/
+}
+@media screen and (min-width: 300px) {
+    blockquote {
+        border: 1px solid gray;
+    }
+    blockquote:before, blockquote:after {
+        background-color: var(--light-primary-color);
+        font-size: 3em;
+        font-weight: 800;
+        position: absolute;
+        z-index: 20;
+    }
+    blockquote:before {
+        content:url('/images/quotation.svg');
+        width: 34px;
+        height: 31px;
+        left: 6px;
+        top: -20px;
+
+    }
+    blockquote:after {
+        content:url('/images/quotation.svg');
+        width: 31px;
+        height: 37px;
+        right: 3px;
+        bottom: 0px;
+
+        -ms-transform: rotate(178deg); /* IE 9 */
+        -webkit-transform: rotate(178deg); /* Chrome, Safari, Opera */
+        transform: rotate(178deg);
+    }
+}
+
+blockquote cite {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: -7px;
+}
+blockquote cite:before {
+    content:"\2014 \2009";
+}

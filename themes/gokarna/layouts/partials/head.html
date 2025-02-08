@@ -47,6 +47,12 @@
     {{ $cssDark := resources.Get "css/dark.css" | minify }}
     <link id="dark-theme" rel="stylesheet" href="{{ $cssDark.RelPermalink }}">
 
+    {{ $cssQuote := resources.Get "css/quote.css" | minify }}
+    <link id="quote" rel="stylesheet" href="{{ $cssQuote.RelPermalink }}">
+
+    {{ $cssWarning := resources.Get "css/warning.css" | minify }}
+    <link id="warning" rel="stylesheet" href="{{ $cssWarning.RelPermalink }}">
+
     {{ $jsBundle := resources.Match "js/**.js" | resources.Concat "js/bundle.js" | minify | resources.Fingerprint "sha256" }}
     <script src="{{ $jsBundle.RelPermalink }}" integrity="{{ $jsBundle.Data.Integrity }}"></script>
 
