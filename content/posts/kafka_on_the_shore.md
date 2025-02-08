@@ -24,7 +24,7 @@ Not to lie, this book is a complex book that will rise lots of questions inside 
 First of all, an **Entrance Stone** is just a gateway between reality and limbo.
 **Limbo** is a place where people after death go. Character's like Johnny Walker, Boy named Crow, Kafka, the 2 soldiers and also miss Saeki visit this place.
 
-So miss Saeki opens the limbo with entrance stone to visit his dead lover there, but this had the consequence of making also souls of children that were collecting mushrooms to enter the limbo. Unfortunately, Nakata's soul didn't come back from limbo and he became a body without sole and was kept hospitalized. After Kafka's Birth, Half of it's soul was incarnated to Nakata and because of that, Nakata woke up to reality. Miss Saeki also leaved half her soul behind in limbo to stay with his lover and due to that became half empty and has half shadow.
+So miss Saeki opens the limbo with entrance stone to visit his dead lover there, but this also had the consequence of making souls of children that were collecting mushrooms to enter the limbo. Unfortunately, Nakata's soul didn't come back from limbo and he became a body without sole and was kept hospitalized. After Kafka's Birth, Half of it's soul was incarnated to Nakata and because of that, Nakata woke up to reality. Miss Saeki also left half her soul behind in limbo to stay with his lover and due to that became half empty and has half shadow.
 
 Book also mentions a character named crow. I think that he is the soul of miss Saeki's lover reincarnated into her child (Kafka). That's why kafka has tendencies toward Miss Saeki (his Mom). Kafka also goes to limbo and leaves his crow side their. After Nakata's death, Kafka's half soul inside Nakata again comes to kafka's body and kafka now has his full soul with himself.
 
@@ -33,12 +33,13 @@ The book also mentions [Oedipus Myth](https://en.wikipedia.org/wiki/Oedipus). In
 The book also invites us to the idea of **[Logotherapy](https://en.wikipedia.org/wiki/Logotherapy)** introduced by Victor Frankl in man's search for meaning. Let me explain with an example. Both Miss Saeki and Nakata had experienced an overwhelming trauma. Miss Saeki losing his lifelong lover and Nakata losing his lifelong intelligence. They can't change or prevent these traumas but they are able to choose their reactions to these traumas. Nakata's reaction is enjoying his normal life but Miss Saeki's reaction is to Not Accepting this fact and using the entrance stone despite its consequences. But is nakata really able to have any other reactions against his trauma considering his condition?
 ***
 Despite the book bringing on surreal concepts, One thing that it made accurate of the world is that it made riddles without answering them. Some of those are:
-- how didn't soldiers in the jungle age?
+- How didn't soldiers in the jungle age?
 - How could Nakata talk to cats? How could Hoshino become able to talk to cats?
 - How can he make fish/leaches run from sky?
 - How was the flute made of cats' souls?
 - How did Kafka got his shirt bloody the same day that his father was murdered?
-  The same happens in reality. **Reality is full of complexities** and our brain is always in a race to understand everything.
+
+The same happens in reality. **Reality is full of complexities** and our brain is always in a race to understand everything.
 ***
 I liked the **two different narratives** (kafka's journey and nakata's journey) that at first didn't relate to each other but eventually interfered with each other
 ***
@@ -57,6 +58,31 @@ The book believes in **fate**. Kafka Tamura has no will. He willingly accepts th
 # My Score
 In my humble opinion, I give this book rating of **5 out of 10**.
 Most of the book was revolving around meta-physical concepts that make the book disconnected from reality. A book that is far from reality isn't worth reading since it favors escapism.
+
+# Sentences From Book I Liked
+{{< quote >}}
+If you’d like to pursue this issue of separate toilets further, I suggest you go to the Boeing headquarters in Seattle and address the issue of toilets on 747s. A 747’s much bigger than our little library, and much more crowded. As far as I’m aware, all toilets on passenger aircraft are shared by men and women.
+{{< /quote >}}
+
+{{< quote >}}
+Individual errors in judgment can usually be corrected. As long as you have the courage to admit mistakes, things can be turned around. But intolerant, narrow minds with no imagination are like parasites that transform the host, change form and continue to thrive. They’re a lost cause, and I don’t want anyone like that coming in here.
+{{< /quote >}}
+
+{{< quote >}}
++ But metaphors can reduce the distance.
+<br>
+- “We’re not metaphors.”
+<br>
++ “I know,” I say. “But metaphors help eliminate what separates you and me.”
+{{< /quote >}}
++ 
+{{< quote >}}
+Anybody who has money is rich. You or me, as long as we had money, we’d be rich. But becoming a man of property isn’t so easy. It takes time.
+{{< /quote >}} 
+
+{{< quote >}}
+I want you to remember me. If you remember me, then I don’t care if everybody else forgets.
+{{< /quote >}}
 
 # References
 Kafka on the Shore, Haruki Murakami
