@@ -11,7 +11,7 @@ title = "Ghobadian"
 [params]
   avatarAltText = "ghobadian"
   avatarSize = "size-m"
-  avatarURL = "/images/formal_pic_square.webp"
+  avatarURL = "/images/profile.png"
   accentColor = "#FF4D4D"
   description = "Where innovation meets execution"
   footer = "Ghobadian"
