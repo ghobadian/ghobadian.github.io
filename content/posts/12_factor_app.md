@@ -171,11 +171,14 @@ Slower development: Errors might occur in production that weren't seen in develo
 ## Logs
 ![logs](/images/12_factor_app/logs.webp)
 Treat logs as event streams
+
 Write logs to stdout so that log aggregators (i.e. Log Stash) can collect that log
-Always remember that you should not get sad if your service crashes and you lose your data since you should have no persistant data on your service. see [Processes](msghobadian.ir/Processes)#todo change
+
+Always remember that you should not get sad if your service crashes and you lose your data since you should have no persistant data on your service. See [Processes](https://msghobadian.ir/posts/12_factor_app/#processes)
+
 ### Rationale
-If the disk fills up because of too many logs getting stored, the app may fail.
-Can't centralize logs in multi-instance apps
+- If the disk fills up because of too many logs getting stored, the app may fail.
+- Can't centralize logs in multi-instance apps
 
 ### Violation Examples
 - writing logs to files
@@ -196,8 +199,6 @@ Admin tasks must not become a part of the actual app. Admin tasks must get execu
 
 ### Violation Examples
 - admin task being a part of appication runtime
-
-
 
 
 # References
