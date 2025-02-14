@@ -203,8 +203,13 @@ Admin tasks must not become a part of the actual app. Admin tasks must get execu
 
 # References
 [The Twelve-Factor App](https://12factor.net/)
+
 [What is Cloud Native?](https://aws.amazon.com/what-is/cloud-native/)
+
 [Cloud-native computing](https://en.wikipedia.org/wiki/Cloud-native_computing)
+
 [The Latest Cloud Computing Statistics](https://aag-it.com/the-latest-cloud-computing-statistics)
+
 [The Twelve Factor App Methodology: A Beginner's Guide](https://dev.to/cadienvan/the-twelve-factor-app-methodology-a-beginners-guide-12m5)
+
 [12 Factor App Revisited](https://architecturenotes.co/p/12-factor-app-revisited)
