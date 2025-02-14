@@ -7,7 +7,9 @@ type: post
 showTableOfContents: true
 ---
 # Introduction
-Nowadays around [98% of companies](https://aag-it.com/the-latest-cloud-computing-statistics) are deploying there apps to cloud. But are all these apps cloud native? In this blog I am going to introduce to you [the 12 factor app](https://12factor.net/). It suggests 12 best practices that help developers design their apps to be more cloud native. 
+Nowadays around [98% of companies](https://aag-it.com/the-latest-cloud-computing-statistics) are deploying there apps to cloud. But are all these apps cloud native? 
+
+In this blog I am going to introduce to you [the 12 factor app](https://12factor.net/). It suggests 12 best practices that help developers design their apps to be more cloud native. 
 
 # What is a Cloud Native App?
 ![cloud native](/images/12_factor_app/cloud_native.jpg)
@@ -20,7 +22,7 @@ Key characteristics of these types of apps are:
 # 12 Factor App
 
 ## Codebase
-![code base](/images/12_factor_app/)
+![code base](/images/12_factor_app/codebase.webp)
 Building each code repository must result in only one app. But don't forget that multiple deployments from the same code base (such as Development, Stage, Production) don't violate this principle because all those deployments are from the same built app.
 
 ### Rationale
@@ -34,8 +36,12 @@ Building each code repository must result in only one app. But don't forget that
 ## Dependencies
 ![dependencies](/images/12_factor_app/dependencies.webp)
 Use a dependency manager such as maven (pom.xml) or gradle (build.gradle)
+
 Don't forget that all dependencies must be declared <u>explicitly</u>. For example, some systems may have 'curl' pre-installed and some don't. If you don't explicitly specify 'curl' as a dependency, your app will crash on systems that don't have 'curl' pre-installed.
-Also all dependencies must be isolated the dependencies. For example in python, you can use virtual environment to isolate your project dependencies from system dependencies. In this way, you can prevent implicit use of system dependencies and therefore prevent [dependency hell](https://en.wikipedia.org/wiki/Dependency_hell). It is worth mentioning that [containerization](https://en.wikipedia.org/wiki/Containerization_(computing)) also acts as a dependency isolation strategy.
+
+Also all dependencies must be isolated the dependencies. For example in python, you can use virtual environment to isolate your project dependencies from system dependencies. In this way, you can prevent implicit use of system dependencies and therefore prevent [dependency hell](https://en.wikipedia.org/wiki/Dependency_hell). 
+
+It is worth mentioning that [containerization](https://en.wikipedia.org/wiki/Containerization_(computing)) also acts as a dependency isolation strategy.
 
 ### Rationale
 - Prevents [dependency hell](https://en.wikipedia.org/wiki/Dependency_hell) AKA "It runs on my machine"
@@ -51,8 +57,11 @@ Also all dependencies must be isolated the dependencies. For example in python, 
 ## Config
 ![configuration](/images/12_factor_app/configuration.webp)
 Can you make your project opensource at the moment without exposing any configs or credentials?
+
 Can another developer that is cloning your source code, is able to run it by only changing configs and no change to code?
+
 If your answer to above questions is no, then your app is violating the strict separation of config from code.
+
 On the other hand, you can use environment variables (.env file) for storing configs. each deployment can have its own configs without chaning the actual code.
 
 ### Rationale
@@ -76,26 +85,28 @@ There should be no difference between local and remote backing services and be c
 
 
 ### Rationale
-Easy change of backing servies: you can switch between an oracle database and a mysql database with ease
-[Separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns): Unlike monolithic applications, in microservices architecture, you are separating backing services from the actual business logic and handle those backing services indivitually.
+- Easy change of backing servies: you can switch between an oracle database and a mysql database with ease
+- [Separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns): Unlike monolithic applications, in microservices architecture, you are separating backing services from the actual business logic and handle those backing services indivitually.
 
 ### Violation Examples
 - Monolithic apps: all backing services exist in the same environment
 
 ## Build, release, run
 ![build release run](/images/12_factor_app/build_release_run.webp)
+
 Strictly separate build, release and run stages
 
 ### Rationale
-[Separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns) and more accurate debugging: if an error occurs in build stage, you understand there's something wrong in building. If it happens in running stage, you understand there is a problem in running the compiled app.
+- [Separation of concerns](https://en.wikipedia.org/wiki/Separation_of_concerns) and more accurate debugging: if an error occurs in build stage, you understand there's something wrong in building. If it happens in running stage, you understand there is a problem in running the compiled app.
 
 ### Violation Examples
-Manual configuration in run stage: release and run tightly coupled
-hardcoding configurations in code: build and release tightly coupled
-changing code while app is running: build and run tightly coupled
+- Manual configuration in run stage: release and run tightly coupled
+- Hardcoding configurations in code: build and release tightly coupled
+- Changing code while app is running: build and run tightly coupled
 
 ## Processes
 ![processes](/images/12_factor_app/processes.webp)
+
 Execute the service apps as one stateless processes. Only backing services can be stateful. State can be:
 - User credentials
 - database entities
@@ -103,7 +114,7 @@ Execute the service apps as one stateless processes. Only backing services can b
 - products informations
 	
 ### Rationale
-Cloud services are immutable. It means that they lose their state and local data after reboot, crash or shutdown. So it is a good idea to use backing services for storing application states and data.
+- Cloud services are immutable. It means that they lose their state and local data after reboot, crash or shutdown. So it is a good idea to use backing services for storing application states and data.
 
 ### Violation Examples
 - Storing persistant data locally
@@ -115,7 +126,7 @@ An app must expose its port via HTTP and don't rely on an external webserver for
 Don't forget that a webserver is not a backing service and must not be a used separately from the app. A webserver is actually a dependency for the app. An app can function without a backing service but not without a dependency.
 
 ### Rationale
-Portability: in microservices architecture, an app must expose a port so that other services can communicate with the app via that port.
+- Portability: in microservices architecture, an app must expose a port so that other services can communicate with the app via that port.
 
 ### Violation Examples
 - Relying on external services like web servers (i.e. tomcat) to operate
