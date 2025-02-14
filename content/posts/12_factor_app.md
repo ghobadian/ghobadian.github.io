@@ -1,3 +1,11 @@
+---
+title: "12 Factor App Simplified"
+date: 2025-02-14
+description: "Helping you understand 12 Factor App"
+tags: ["cloud", "micro-services", "best-practices", "technology"]
+type: post
+showTableOfContents: true
+---
 # Introduction
 Nowadays around [98% of companies](https://aag-it.com/the-latest-cloud-computing-statistics) are deploying there apps to cloud. But are all these apps cloud native? In this blog I am going to introduce to you [the 12 factor app](https://12factor.net/). It suggests 12 best practices that help developers design their apps to be more cloud native. 
 
