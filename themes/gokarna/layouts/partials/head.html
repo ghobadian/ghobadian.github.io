@@ -53,6 +53,9 @@
     {{ $cssWarning := resources.Get "css/warning.css" | minify }}
     <link id="warning" rel="stylesheet" href="{{ $cssWarning.RelPermalink }}">
 
+    {{ $copyCode := resources.Get "css/copy-code.css" | minify }}
+    <link id="copy-code" rel="stylesheet" href="{{ $copyCode.RelPermalink }}">
+
     {{ $jsBundle := resources.Match "js/**.js" | resources.Concat "js/bundle.js" | minify | resources.Fingerprint "sha256" }}
     <script src="{{ $jsBundle.RelPermalink }}" integrity="{{ $jsBundle.Data.Integrity }}"></script>
 

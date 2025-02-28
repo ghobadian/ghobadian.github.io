@@ -32,4 +32,5 @@
     {{ if (gt (.Scratch.Get "footerText" | len) 0) }}
         <span>&copy; {{ .Scratch.Get "footerText" | markdownify }}</span>
     {{ end }}
+    <script src="{{ "/js/copy-code.js" | relURL }}"></script>
 </footer>
