@@ -131,7 +131,7 @@ It introduced the concept of Ikigai and emphasized the value of good habits. The
 
 # References
 - Ikigai, Francesc Miralles and Hector Garcia
-- [7 Ways to Maximize Misery 😞] (https://www.youtube.com/watch?v=LO1mTELoj6o)
+- [7 Ways to Maximize Misery 😞](https://www.youtube.com/watch?v=LO1mTELoj6o)
 - [Effects of Alcohol](https://www.healthline.com/health/alcohol/effects-on-body)
 - [Eat the Rainbow](https://www.healthline.com/nutrition/eat-the-rainbow)
 - [Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique)

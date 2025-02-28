@@ -8,7 +8,7 @@ showTableOfContents: true
 ---
 # Intro
 If you aren't familiar with the [Einstellung Effect](https://en.wikipedia.org/wiki/Einstellung_effect) or [The Law of the Instrument](https://en.wikipedia.org/wiki/Law_of_the_instrument), they essentially claim that we only try to solve a problem based on what we already know (past experience).
-![img.png](/images/img.png)
+![/images/right_programming_tool/img.png](/images/right_programming_tool/img.png)
 When I first started using Java, I felt that I discovered the panacea for all my projects. I needed a small script to reserve a hotel, so I used **Java**. I needed to build an enterprise-level online e-commerce application, so I used **Java** again. I even trained a machine learning model with **Java**—although I could have done it faster and easier with another tool.
 
 In this blog post, I want to teach you how to build your own **tool set** as a developer.
@@ -17,11 +17,11 @@ Before talking about the tools, let's clarify that the term "tool". Real world t
 
 |                | Real World Tools                                                                                       | Programming Tools                                                                                                                                                                                                                                                                                                                                                                       |
 | -------------- | ------------------------------------------------------------------------------------------------------ |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Freedom of use | Real world tools offer smaller freedom of use<br>Example: you can't use a screw driver to pound a nail | programming tools offer more freedom which makes choosing the right tool more difficult<br>Take Javascript for instance: ![js meme](/images/js_meme.png)                                                                                                                                                                                                                                |
+| Freedom of use | Real world tools offer smaller freedom of use<br>Example: you can't use a screw driver to pound a nail | programming tools offer more freedom which makes choosing the right tool more difficult<br>Take Javascript for instance: ![js meme](/images/right_programming_tool/js_meme.png)                                                                                                                                                                                                                                |
 | Time to Learn  | Learning how to use a screw or hammer is not that hard                                                 | Learning a new programming tool takes more time. I am not talking about learning basic things such as syntax or a simple `for` loop. I am talking about what makes the tool unique from other tools. For example when you know python and want to learn C, one of the concepts that you need to learn is pointers. I personally spent 2 whole weeks trying to learn what a pointer was. |
 # Domains
 Here I have chosen a set of tools for each tech domain:
-<img src="/images/decision_tree.png" style="width: 700px; height: auto;">
+<img src="/images/right_programming_tool/decision_tree.png" style="width: 700px; height: auto;">
 ## Web Development (Front-end)
 **Common Choices**: JavaScript, Html, CSS
 **Why These?**
