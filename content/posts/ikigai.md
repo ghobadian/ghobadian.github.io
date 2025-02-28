@@ -37,7 +37,7 @@ Some activities satisfy only some of these criteria. Take playing video games, f
 Find an activity that you enjoy even on weekends, during vacations, and after retirement. Many retirees experience an existential crisis after they stop working, which can accelerate mental and physical aging.
 
 # Diet
-- - [**Never drink alcohol**](https://www.healthline.com/health/alcohol/effects-on-body): Alcohol clouds mental clarity and intuition for days. While it might temporarily boost your mood, it functions like a loan—you’ll pay it back with interest in the form of long-term consequences.
+- [**Never drink alcohol**](https://www.healthline.com/health/alcohol/effects-on-body): Alcohol clouds mental clarity and intuition for days. While it might temporarily boost your mood, it functions like a loan—you’ll pay it back with interest in the form of long-term consequences.
 
 - **Never smoke**
 
