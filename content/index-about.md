@@ -96,17 +96,23 @@
     <div>
         <div class="section">
             <h1>SUMMARY</h1>
-            <p>Junior Software Developer with over 2 years of expertise in developing robust Restful applications, specializing in micro-services architecture and cloud infrastructure. Proficient in enhancing application performance through the integration of advanced technologies. Adept in DevOps practices and skilled in establishing efficient CI/CD pipelines.</p>
+            <p>Mid Software Developer with over <b>2 years</b> of expertise in developing robust enterprise applications, specializing in <b>microservices</b> architecture and <b>CaaS</b> infrastructure. Proﬁcient in enhancing application quality and development speed through integration of <b>TDD</b> and <b>Design Patterns</b> in timely mannger by following <b>agile</b> methodologies. Adept in <b>Dev/Ops</b> practices and skilled in establishing <b>CI/CD</b> pipelines.</p>
         </div>
         <div class="section">
             <h1>EXPERIENCE</h1>
             <div class="item">
-                <h2>Java Developer</h2>
+                <h2>Mid Java Developer</h2>
                 <h3 ><a href="https://dotin.ir">Dotin</a></h3>
-                <span>Nov 2024 – Present (2m) | Tehran, Iran</span>
+                <span>Nov 2024 – Present (5m) | Tehran, Iran</span>
                 <ul>
                     <li>
-                        Developing switch banking solutions
+                        • Developed banking switch solutions handling transactions coming from all banks connected to SHETAB
+                    </li>
+                    <li>
+                        • Dockerised 6 interconnected switching apps in colaboration with Dev/Ops Team
+                    </li>
+                    <li>
+                        • Gave 2 Presentations to familiarize other teams with FIRST principle and containerization concept
                     </li>
                 </ul>
             </div>
@@ -117,13 +123,13 @@
                 <span>July 2022 – Oct 2023 (1y 4m) | Isfahan, Iran</span>
                 <ul>
                     <li>
-                        Increased performance of legacy code by 10% by optimizing duplicate SQL queries
+                        • Increased performance of legacy code by 10% by optimizing duplicate SQL queries
                     </li>
                     <li>
-                        Implemented the backend of shopiway.ir, laying the groundwork for user registration, product catalog, and checkout processes, resulting in a 10% faster launch
+                        • Implemented the backend of shopiway.ir, laying the groundwork for user registration, product catalog, and checkout processes, resulting in a 10% faster launch
                     </li>
                     <li>
-                        Extended features of zaberin.ir, improving product accuracy by 20%, and reducing API response times by using cache
+                        • Extended features of zaberin.ir, improving product accuracy by 20%, and reducing API response times by using cache
                     </li>
                 </ul>
             </div>
@@ -134,7 +140,8 @@
                 <h2>B.Sc. in Computer Engineering</h2>
                 <h3 ><a href="https://en.kntu.ac.ir">K.N. Toosi University of Technology</a></h3>
                 <span>Sept 2021 – Present | Tehran, Iran</span>
-                <p>Helped CE freshmen (and women) understand fundamentals of programming and OOP better.</p>
+                <p>Mentored CE freshmen (and women) in courses:</p>
+                <ul><li>• Advanced Programming (Java)</li><li>• Fundamentals of Programming (C)</li></ul>
             </div>
         </div>
     </div>
@@ -145,18 +152,17 @@
             <div style="margin-bottom: 10px;">
                 <span class="tag">Java</span>
                 <span class="tag">Spring</span>
-                <span class="tag">Git</span>
-                <span class="tag">SQL</span>
+                <span class="tag">Micro-services</span>
+                <span class="tag">Dev/Ops</span>
+                <span class="tag">Design Patterns</span>
                 <span class="tag">OOP</span>
-                <span class="tag">CI/CD</span>
                 <span class="tag">TDD</span>
-                <span class="tag">Redis</span>
-                <span class="tag">MongoDB</span>
+                <span class="tag">SQL</span>
             </div>
             <div>
-                <span class="tag">Problem Solving</span>
-                <span class="tag">Teamwork</span>
                 <span class="tag">Perseverance</span>
+                <span class="tag">Teamwork</span>
+                <span class="tag">Problem Solving</span>
                 <span class="tag">Organization</span>
                 <span class="tag">Time Management</span>
                 <span class="tag">Confidence</span>
@@ -165,13 +171,13 @@
         <div class="section">
             <h1>PROJECTS</h1>
             <div class="item">
-                <h2><a href="https://github.com/ghobadian/golestan">Simple Grading & Course Management System</a></h2>
+                <h2><a href="https://github.com/ghobadian/golestan">Grading & Course Management App</a></h2>
                 <span>Open Source Contribution</span>
-                <p>Developed backend for a grading and course management system for university students.</p>
+                <p>Developed a grading and course management system for university students with help of Spring Boot.</p>
             </div>
             <hr class="hr">
             <div class="item">
-                <h2><a href="https://github.com/ghobadian/SimpleMessanger">Simple Chat App</a></h2>
+                <h2><a href="https://github.com/ghobadian/SimpleMessanger">CLI Chat App</a></h2>
                 <span>Open Source Contribution</span>
                 <p>Coded an online chatting app using socket programming and client-server architecture.</p>
             </div>
