@@ -121,7 +121,7 @@ public class Service {
 }
 ```
 
-![constructor_injection_mem.png](/images/dependency_injection/constructor_injection_mem.png)
+![constructor_injection_meme.png](/images/dependency_injection/constructor_injection_mem.png)
 
 **NO**, your class has too much responsibilities ([god class](https://en.wikipedia.org/wiki/God_object)) therefore too much dependencies and must be broken down to smaller classes
 
