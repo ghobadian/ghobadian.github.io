@@ -6,7 +6,7 @@ languageCode = "en"
 # Choose one of emacs, trac or perldoc
 pygmentsStyle = "monokai"
 theme = "gokarna"
-title = "Ghobadian"
+title = "Koosha Ghobadian"
 
 [params]
   avatarAltText = "ghobadian"
