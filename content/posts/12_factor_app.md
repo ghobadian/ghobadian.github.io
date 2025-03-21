@@ -2,7 +2,7 @@
 title: "12 Factor App Simplified"
 date: 2025-02-14
 description: "Helping you understand 12 Factor App"
-tags: ["cloud", "micro-services", "best-practices", "technology"]
+tags: ["cloud", "microservices", "best-practices", "technology"]
 type: post
 showTableOfContents: true
 ---
