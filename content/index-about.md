@@ -96,7 +96,7 @@
     <div>
         <div class="section">
             <h1>SUMMARY</h1>
-            <p>Mid Software Developer with over <b>2 years</b> of expertise in developing robust enterprise applications, specializing in <b>microservices</b> architecture and <b>CaaS</b> infrastructure. Proﬁcient in enhancing application quality and development speed through integration of <b>TDD</b> and <b>Design Patterns</b> in timely mannger by following <b>agile</b> methodologies. Adept in <b>Dev/Ops</b> practices and skilled in establishing <b>CI/CD</b> pipelines.</p>
+            <p>Mid Software Developer with over <b>2 years</b> of expertise in developing robust enterprise applications, specializing in <b>microservices</b> architecture and <b>CaaS</b> infrastructure. Proﬁcient in enhancing application quality and development speed through integration of <b>TDD</b> and <b>Design Patterns</b> in timely manner by following <b>agile</b> methodologies. Adept in <b>Dev/Ops</b> practices and skilled in establishing <b>CI/CD</b> pipelines.</p>
         </div>
         <div class="section">
             <h1>EXPERIENCE</h1>
