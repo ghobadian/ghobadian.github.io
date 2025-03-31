@@ -12,6 +12,7 @@ Back when I first started my first big java project (2000 lines of code), I just
 - I didn't really think about what was the core problem I was trying to solve.
 - Every class was entangled to each other like spaghetti. Adding new features was getting harder and harder, commit after commit.
 Today I want to talk about domain driven design and how this methodology helps you design your big project like a chad
+
 ![virgin_vs_chad.jpg](/images/domain_driven_design/virgin_vs_chad.jpg)
 
 # Goal
@@ -48,6 +49,7 @@ Complex logic doesn’t sort itself out in one meeting. Designing the domain mod
 # Bounded Context
 ## What It Is
 Bounded Contexts are your design’s boundaries—subdomains that let you focus on one piece at a time without drowning in the whole mess. Each has its own model and language.
+
 ![auction.webp](/images/domain_driven_design/auction.webp)
 ![bounded_context_diagram.webp](/images/domain_driven_design/bounded_context_diagram.webp)
 
@@ -108,6 +110,7 @@ DDD comes first: define subdomains, map their relationships, *then* build each a
 - Event Storming in Action
 
 # Conclusion
+
 At its heart, DDD is about knowing your customer’s problems—and building software that actually solves them. It’s not just fancy words; it’s a mindset shift from monkey-coding to chad-designing. Next time you’re starting a project, grab a domain expert, sketch a bounded context, and see how it changes your game.
 ![ddd_simplified.jpeg](/images/domain_driven_design/ddd_simplified.jpeg)
 
