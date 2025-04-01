@@ -174,7 +174,7 @@ Treat logs as event streams
 
 Write logs to stdout so that log aggregators (i.e. Log Stash) can collect that log
 
-Always remember that you should not get sad if your service crashes and you lose your data since you should have no persistant data on your service. See [Processes](https://msghobadian.ir/posts/12_factor_app/#processes)
+Always remember that you should not get sad if your service crashes and you lose your data since you should have no persistant data on your service. See [Processes](https://kghobad.ir/posts/12_factor_app/#processes)
 
 ### Rationale
 - If the disk fills up because of too many logs getting stored, the app may fail.

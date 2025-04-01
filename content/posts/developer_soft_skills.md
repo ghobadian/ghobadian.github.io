@@ -33,7 +33,7 @@ You do this by blogging, writing articles, talking in public event, or using any
 - You prove that you are a professional in your field.
 - You help others by writing about solutions to their problems. I believe that you can't become successful without first helping others achieve success.
 - You become a better communicator. Blogging and writing in general helps you organize your thoughts.
-- Forcing yourself to write an article per week, pushes you toward continuous learning which is one of the most essential skills [In the Future](https://msghobadian.ir/posts/future_of_tech_jobs/#so-what-skills-to-learn)
+- Forcing yourself to write an article per week, pushes you toward continuous learning which is one of the most essential skills [In the Future](https://kghobad.ir/posts/future_of_tech_jobs/#so-what-skills-to-learn)
 ### Why You Need Social Media Presence?
 Even if you do the blogging, you still need to find the audience to observe your works of art (yes, it is an art). But don't get addicted to social media. Always remember what your main goal is. I recommend reading [Essentialism: The Disciplined Pursuit of Less](https://www.amazon.de/-/en/Essentialism-Disciplined-Pursuit-Greg-McKeown/dp/0804137382)
 
@@ -146,7 +146,7 @@ In this blog post, I gave my opinion about [Soft Skills: The Software Developers
 # References
 - [Anti-Social Behavior](https://en.wikipedia.org/wiki/Anti-social_behaviour)
 - [The Formula: The Universal Laws of Success](https://www.amazon.com/Formula-Universal-Laws-Success/dp/0316505498)
-- [Future of Jobs](https://msghobadian.ir/posts/future_of_tech_jobs/#so-what-skills-to-learn)
+- [Future of Jobs](https://kghobad.ir/posts/future_of_tech_jobs/#so-what-skills-to-learn)
 - [Essentialism: The Disciplined Pursuit of Less](https://www.amazon.de/-/en/Essentialism-Disciplined-Pursuit-Greg-McKeown/dp/0804137382)
 - [SMART goals](https://en.wikipedia.org/wiki/SMART_criteria)
 - [Being Smarter is easy, actually](https://www.youtube.com/watch?v=C5OJJD3Eytk)
