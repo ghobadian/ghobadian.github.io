@@ -33,4 +33,48 @@
         <span>&copy; {{ .Scratch.Get "footerText" | markdownify }}</span>
     {{ end }}
     <script src="{{ "/js/copy-code.js" | relURL }}"></script>
+
+    {{ if .Store.Get "hasMermaid" }}
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+
+        function initializeMermaid() {
+            // Check the site's theme state
+            const savedTheme = localStorage.getItem('theme-preference') ||
+                (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+            let isDark = savedTheme === 'dark';
+
+            let mermaidTheme = isDark ? 'dark' : 'default';
+
+            mermaid.initialize({
+                startOnLoad: true,
+                theme: mermaidTheme,
+                themeVariables: {
+                    primaryTextColor: isDark ? '#ffffff' : '#000000',
+                    secondaryTextColor: isDark ? '#cccccc' : '#333333',
+                    tertiaryTextColor: isDark ? '#bbbbbb' : '#444444',
+                    primaryColor: isDark ? '#1f3a5e' : '#e0f0ff',
+                    secondaryColor: isDark ? '#2a4b7c' : '#d0e7ff',
+                    background: isDark ? '#1a1a1a' : '#ffffff'
+                }
+            });
+        }
+
+        // Initialize on load
+        document.addEventListener('DOMContentLoaded', initializeMermaid);
+
+        // Listen for theme changes via localStorage
+        window.addEventListener('theme-preference', () => {
+            initializeMermaid();
+        });
+
+        // Optional: Listen for direct theme toggle clicks
+        document.querySelectorAll('.dark-theme-toggle').forEach(el => {
+            el.addEventListener('click', () => {
+                // Delay slightly to allow localStorage to update
+                setTimeout(initializeMermaid, 100);
+            });
+        });
+    </script>
+    {{ end }}
 </footer>
