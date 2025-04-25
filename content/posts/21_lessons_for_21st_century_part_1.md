@@ -6,6 +6,7 @@ tags: ["non-fiction", "book-review", "yuval-noah-harari"]
 type: post
 showTableOfContents: true
 ---
+![me.jpg](/images/21_lessons_for_21st_century_part_1/me.jpg)
 
 # Introduction
 What does it mean to thrive in a world shaped by rapid technological change, political upheaval, and existential crises? In 21 Lessons for the 21st Century, Yuval Noah Harari tackles this question, offering a thought-provoking guide to navigating the challenges of our time. This blog post dives into the first part of the book, exploring the Technological Challenge and its four key lessons: disillusionment, work, liberty, and equality (and community). I’ll share my thoughts on each lesson, highlight the book’s strengths and weaknesses, and give it a score.
