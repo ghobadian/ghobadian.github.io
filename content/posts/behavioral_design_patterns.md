@@ -5,7 +5,7 @@ description: "Comparing behavioral design patterns similarities and differences"
 tags: ["design-patterns", "software-engineering", "behavioral-patterns", "alexander-shvets", "book-review"]
 type: post
 showTableOfContents: true
-ogImg: "/images/behavioral_design_patterns/cover.jpg"
+ogImage: "/images/behavioral_design_patterns/cover.jpg"
 ---
 ![cover.jpg](/images/behavioral_design_patterns/cover.jpg)
 # Seeing the Forest, Not Just the Trees: Design Pattern Relationships
