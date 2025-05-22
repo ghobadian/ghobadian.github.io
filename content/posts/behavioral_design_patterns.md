@@ -112,7 +112,7 @@ It's like having both:
 `Chain of Responsibility`, `Command`, `Mediator`, and `Observer` all address different ways of connecting senders and receivers.
 
 In `Chain of Responsibility`, **single** sender sends messages **sequentially** and **unidirectional** to **single receiver**.
-![chain_of_responsibility.png](/images/behavioral_design_patterns/change_of_responsibility.png)
+![chain_of_responsibility.png](/images/behavioral_design_patterns/chain_of_responsibility.png)
 
 In `Command`,  **multiple** senders send messages **unidirectional** to a **single** receiver.
 ![command.png](/images/behavioral_design_patterns/command.png)
