@@ -2,8 +2,8 @@
 .warning-alert {
     display: flex;
     align-items: flex-start;
-    background-color: #fdecea; /* Light faint red */
-    color: #5a1a1a; /* Dark red text */
+    background-color: var(--light-warning-bg, #fdecea); /* Light faint red */
+    color: var(--light-warning-text, #5a1a1a); /* Dark red text */
     padding: 1em;
     border-radius: 8px;
     margin: 1em 0;
@@ -11,13 +11,13 @@
 }
 
 .warning-alert .alert-icon {
-    color: #d93025; /* Bright red icon */
+    color: var(--light-warning-icon, #d93025); /* Bright red icon */
     font-size: 1.5em;
     margin-right: 0.5em;
 }
 
 .warning-alert .alert-content strong {
-    color: #d93025; /* Bright red title */
+    color: var(--light-warning-title, #d93025); /* Bright red title */
     font-size: 1.1em;
     display: block;
     margin-bottom: 0.3em;
@@ -25,14 +25,14 @@
 
 /* Dark Mode Styles */
 body.dark-mode .warning-alert {
-    background-color: #3b2828; /* Dark reddish background */
-    color: #f8d7da; /* Light pinkish text for contrast */
+    background-color: var(--dark-warning-bg, #3b2828); /* Dark reddish background */
+    color: var(--dark-warning-text, #f8d7da); /* Light pinkish text for contrast */
 }
 
 body.dark-mode .warning-alert .alert-icon {
-    color: #f28b82; /* Softer red icon in dark mode */
+    color: var(--dark-warning-icon, #f28b82); /* Softer red icon in dark mode */
 }
 
 body.dark-mode .warning-alert .alert-content strong {
-    color: #f28b82; /* Softer red title in dark mode */
+    color: var(--dark-warning-title, #f28b82); /* Softer red title in dark mode */
 }

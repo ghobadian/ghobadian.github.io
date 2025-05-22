@@ -113,6 +113,7 @@ function toggleTheme(event) {
 }
 
 function setTheme(themeToSet, targets) {
+    document.body.classList.toggle('dark-mode', themeToSet === 'dark');
     darkThemeCss.disabled = themeToSet === 'light';
     targets.forEach((target) => {
         target.querySelector('a').innerHTML = feather.icons[THEME_TO_ICON_CLASS[themeToSet].split('-')[1]].toSvg();

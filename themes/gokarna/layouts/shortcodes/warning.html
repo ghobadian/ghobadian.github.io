@@ -3,7 +3,7 @@
         &#9888; <!-- Unicode Warning icon -->
     </div>
     <div class="alert-content">
-        <strong>SPOILER ALERT</strong><br />
+        <strong>{{ .Get "title" | default "SPOILER ALERT" }}</strong><br />
         {{ .Inner }}
     </div>
 </div>
