@@ -269,5 +269,5 @@ Here's a quick decision guide:
 # References
 
 - Shvets, Alexander. [Dive Into Design Patterns](https://refactoring.guru/design-patterns/book). Refactoring.Guru, 2019.
-- [Open/Closed](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)
+- [Open/Closed Principle](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)
 
