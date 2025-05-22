@@ -5,6 +5,7 @@ description: "Reviewing Soft Skills: The Software Developer's Life Manual By Joh
 tags: ["soft-skills", "career", "marketing", "fitness", "book-review"]
 type: post
 showTableOfContents: true
+ogImage: "/images/soft_skills/cover.png"
 ---
 # Introduction
 ![cover](/images/soft_skills/cover.png)
