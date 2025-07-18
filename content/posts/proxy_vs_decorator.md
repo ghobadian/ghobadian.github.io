@@ -190,19 +190,8 @@ Happy coding! 🚀
 
 ---
 
-## References & Further Reading 📚
-
-### Core Design Pattern Resources:
-- [Design Patterns: Elements of Reusable Object-Oriented Software](https://en.wikipedia.org/wiki/Design_Patterns) - The original "Gang of Four" book that started it all
-- [Refactoring Guru - Proxy Pattern](https://refactoring.guru/design-patterns/proxy) - Interactive examples with diagrams and code in multiple languages
-- [Refactoring Guru - Decorator Pattern](https://refactoring.guru/design-patterns/decorator) - Step-by-step visual guide to implementing decorators
-
-### Beginner-Friendly Resources:
-- [Head First Design Patterns](https://www.oreilly.com/library/view/head-first-design/0596007124/) - Uses humor and visuals to explain patterns
-- [Source Making - Structural Patterns](https://sourcemaking.com/design_patterns/structural_patterns) - Comprehensive explanations with real-world examples
-
-### Video Tutorials:
-- [Derek Banas - Design Patterns Tutorial](https://www.youtube.com/playlist?list=PLF206E906175C7E07) - Quick video explanations of each pattern
-- [Christopher Okhravi - Design Patterns](https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc) - In-depth discussions with whiteboard explanations
-
+# References
+https://doeken.org/blog/decorator-vs-proxy-pattern
+https://refactoring.guru/design-patterns/decorator/java/example
+https://www.youtube.com/@ChristopherOkhravi
 
