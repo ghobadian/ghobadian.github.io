@@ -244,7 +244,6 @@ The Saga pattern often gets compared to the two-phase commit (2PC) pattern, a tr
 - Use 2PC when you need strict ACID guarantees and operate in a controlled environment (e.g., a single RDBMS cluster). It’s overkill for microservices.
 
 - Use Saga when building resilient, scalable microservices where availability trumps immediate consistency—think e-commerce, booking systems, or any distributed workflow.
-#todo talk about misuses
 
 
 # When Not to use Saga
