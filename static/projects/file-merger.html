@@ -414,15 +414,17 @@
         </div>
     </div>
 
+    <div class="output-section" id="outputSection" style="display: none;">
+        <h3>📦 Output Files (LLM-Friendly Format)</h3>
+        <div id="outputList"></div>
+    </div>
+
     <div class="file-list" id="fileListSection" style="display: none;">
         <h3>📋 Selected Files (<span id="fileCount">0</span>)</h3>
         <div id="fileList"></div>
     </div>
 
-    <div class="output-section" id="outputSection" style="display: none;">
-        <h3>📦 Output Files (LLM-Friendly Format)</h3>
-        <div id="outputList"></div>
-    </div>
+
 </div>
 
 <script>
@@ -699,21 +701,25 @@
             const format = this.outputFormatSelect.value;
             const timestamp = new Date().toISOString();
             let mergedContent = '';
+            let name = ``;
 
             switch (format) {
                 case 'xml':
                     mergedContent = this.createXMLFormat(files, outputNumber, timestamp);
+                    name = `merged_output_${outputNumber}.xlm`;
                     break;
                 case 'markdown':
                     mergedContent = this.createMarkdownFormat(files, outputNumber, timestamp);
+                    name = `merged_output_${outputNumber}.md`;
                     break;
                 case 'json':
                     mergedContent = this.createJSONFormat(files, outputNumber, timestamp);
+                    name = `merged_output_${outputNumber}.json`;
                     break;
             }
 
             return {
-                name: `merged_output_${outputNumber}.txt`,
+                name: name,
                 content: mergedContent,
                 fileCount: files.length,
                 files: files.map(f => f.name),
