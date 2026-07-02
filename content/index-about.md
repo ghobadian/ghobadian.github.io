@@ -103,16 +103,28 @@
             <div class="item">
                 <h2>Mid Java Developer</h2>
                 <h3 ><a href="https://dotin.ir">Dotin</a></h3>
-                <span>Nov 2024 – Present (5m) | Tehran, Iran</span>
+                <span>Nov 2024 – May 2026 (1y 7m) | Tehran, Iran</span>
                 <ul>
                     <li>
-                        • Developed banking switch solutions handling transactions coming from all banks connected to SHETAB
+                        • Engineered high-throughput Oracle DB partitioning and optimized system-wide queries for a new banking switch, preventing locking and scaling for massive transaction loads.
                     </li>
                     <li>
-                        • Dockerised 6 interconnected switching apps in colaboration with Dev/Ops Team
+                        • Optimized a legacy reconciliation process by introducing multi-threading and a chunk-based comparison algorithm, reducing execution time from over an hour to minutes.
                     </li>
                     <li>
-                        • Gave 2 Presentations to familiarize other teams with FIRST principle and containerization concept
+                        • Integrated Apache ZooKeeper for real-time distributed configuration management, eliminating legacy polling jobs and significantly reducing database load.
+                    </li>
+                    <li>
+                        • Remediated 14 security vulnerabilities by fixing access control flaws, implementing Bucket4j rate limiting, preventing user enumeration, and adding Apache Tika file validation.
+                    </li>
+                    <li>
+                        • Revamped E2E test automation using FIRST principles, replacing static sleeps with Awaitility and implementing transactional rollbacks to guarantee test isolation.
+                    </li>
+                    <li>
+                        • Implemented Shetab 8 Card Holder Verification and a new ATM cheque-acceptance verification flow, enhancing core banking functionality and user trust.
+                    </li>
+                    <li>
+                        • Dockerized applications with DevOps, implemented Spring Actuator/JMX observability, and led internal workshops on Docker and software testing practices.
                     </li>
                 </ul>
             </div>
