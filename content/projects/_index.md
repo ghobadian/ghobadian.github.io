@@ -11,7 +11,7 @@ type: page
 # Spring Related
 1. [Thesis Defense Scheduling System](https://github.com/ghobadian/thesis_defense_time_schedular)
 
-# Javascript Related
+# Javascript  Related
 1. [File Merger](/projects/file-merger.html)
 
 # Not Code
