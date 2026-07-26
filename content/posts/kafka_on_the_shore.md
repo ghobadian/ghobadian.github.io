@@ -45,7 +45,7 @@ I liked the **two different narratives** (kafka's journey and nakata's journey) 
 ***
 **Lots of musical references**. I am not a classical music fan but I like new experiences. Hoshino introduced me to [Archduke's Trio](https://www.youtube.com/watch?v=ezRNLXBbB8Q)
 # What I Disliked
-The book believes in **limbo**, which is described as a small town in the woods. As a materialistic creature, I don't believe in any afterlife. When someone dies, that is the end. Using lots of metaphors (limbo, soul, etc) to justify the harsh reality that someday all of us will vanished, is just burying our heads in sand.
+The book believes in **limbo**, which is described as a small town in the woods. As a materialistic creature, I don't believe in any afterlife. When someone dies, that is the end. Using lots of metaphors (limbo, soul, etc) to justify the harsh reality that someday all of us will vanish, is just burying our heads in sand.
 ***
 It also believes in **soul**. Nakata has half a soul. Miss saeki had half a soul. kafka tamura had 2 half souls (crow + his). As Oshima said:
 {{< quote >}}
