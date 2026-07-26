@@ -102,19 +102,13 @@ Governments play a critical role in ensuring that citizens can adapt to the rapi
 The future of work is in our hands. Whether you’re entering the job market or considering a career shift, now is the time to invest in lifelong learning and adaptability.
 
 # References
-21 Lessons for the 21st century, Yuval Noah Harari. chapter 2: work
-
-[World Economic Forum Report 2025](https://www.weforum.org/publications/the-future-of-jobs-report-2025/digest/)
-
-https://www.linkedin.com/pulse/what-top-50-jobs-ai-create-replace-over-next-10-years-thomas-ross-swkrc/
-
-https://stm.fi/en/-/perustulokokeilun-tulokset-tyollisyysvaikutukset-vahaisia-toimeentulo-ja-psyykkinen-terveys-koettiin-paremmaksi?utm_source=chatgpt.com
-
-https://www.skillsfuture.gov.sg/AboutSkillsFuture?utm_source=chatgpt.com
-
-https://www.bibb.de/en/147679.php?utm_source=chatgpt.com
-
-https://en.wikipedia.org/wiki/Universal_basic_income
+- [21 Lessons for the 21st century, Yuval Noah Harari. chapter 2: work](https://en.wikipedia.org/wiki/21_Lessons_for_the_21st_Century)
+- [World Economic Forum Report 2025](https://www.weforum.org/publications/the-future-of-jobs-report-2025/digest/)
+- https://www.linkedin.com/pulse/what-top-50-jobs-ai-create-replace-over-next-10-years-thomas-ross-swkrc/
+- https://stm.fi/en/-/perustulokokeilun-tulokset-tyollisyysvaikutukset-vahaisia-toimeentulo-ja-psyykkinen-terveys-koettiin-paremmaksi?utm_source=chatgpt.com
+- https://www.skillsfuture.gov.sg/AboutSkillsFuture?utm_source=chatgpt.com
+- https://www.bibb.de/en/147679.php?utm_source=chatgpt.com
+- https://en.wikipedia.org/wiki/Universal_basic_income
 
 
 

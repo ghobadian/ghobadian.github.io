@@ -254,10 +254,7 @@ The Saga pattern often gets compared to the two-phase commit (2PC) pattern, a tr
 - When latency and performance are critical. Compensation is slower than doing rollbacks
 
 # References
-[Azure](https://learn.microsoft.com/en-us/azure/architecture/patterns/saga)
-
-[Axon Framework](https://docs.axoniq.io/axon-framework-reference/4.11/sagas/)
-
-[Saga pattern with axon github example](https://github.com/dashsaurabh/saga-pattern-axon-spring-boot-sample)
-
-[Baeldung](https://www.baeldung.com/cs/saga-pattern-microservices)
+- [Azure](https://learn.microsoft.com/en-us/azure/architecture/patterns/saga)
+- [Axon Framework](https://docs.axoniq.io/axon-framework-reference/4.11/sagas/)
+- [Saga pattern with axon github example](https://github.com/dashsaurabh/saga-pattern-axon-spring-boot-sample)
+- [Baeldung](https://www.baeldung.com/cs/saga-pattern-microservices)

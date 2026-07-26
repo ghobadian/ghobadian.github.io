@@ -191,7 +191,7 @@ Happy coding! 🚀
 ---
 
 # References
-https://doeken.org/blog/decorator-vs-proxy-pattern
-https://refactoring.guru/design-patterns/decorator/java/example
-https://www.youtube.com/@ChristopherOkhravi
+- https://doeken.org/blog/decorator-vs-proxy-pattern
+- https://refactoring.guru/design-patterns/decorator/java/example
+- https://www.youtube.com/@ChristopherOkhravi
 

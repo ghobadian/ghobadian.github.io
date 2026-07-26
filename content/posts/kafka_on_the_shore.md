@@ -85,12 +85,8 @@ I want you to remember me. If you remember me, then I don’t care if everybody 
 {{< /quote >}}
 
 # References
-Kafka on the Shore, Haruki Murakami
-
-[Haruki Murakami's Kafka on the Shore Explained](https://www.youtube.com/watch?v=RCP0LvSgGCQ)
-
-[Why should you read “Kafka on the Shore”? - Iseult Gillespie](https://www.youtube.com/watch?v=mB4FO1itCi0)
-
-[Kafka On the Shore by Haruki Murakami (Book Review and Some of My Notes)](https://www.youtube.com/watch?v=mk0ybmOTI50)
-
-[Analysis and theory about kafka on the shore](https://www.reddit.com/r/murakami/comments/12mqgkn/analysis_and_theory_about_kafka_on_the_shore/)
+- [Kafka on the Shore, Haruki Murakami](https://en.wikipedia.org/wiki/Kafka_on_the_Shore)
+- [Haruki Murakami's Kafka on the Shore Explained](https://www.youtube.com/watch?v=RCP0LvSgGCQ)
+- [Why should you read “Kafka on the Shore”? - Iseult Gillespie](https://www.youtube.com/watch?v=mB4FO1itCi0)
+- [Kafka On the Shore by Haruki Murakami (Book Review and Some of My Notes)](https://www.youtube.com/watch?v=mk0ybmOTI50)
+- [Analysis and theory about kafka on the shore](https://www.reddit.com/r/murakami/comments/12mqgkn/analysis_and_theory_about_kafka_on_the_shore/)

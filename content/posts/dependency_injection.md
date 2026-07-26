@@ -282,9 +282,7 @@ While these drawbacks exist, frameworks like Spring mitigate them by abstracting
 Dependency Injection transforms how we write Java applications, making them more modular, testable, and maintainable. With Spring, it’s a breeze to implement, whether through annotations or XML. What’s your experience with DI? Have you faced challenges or found clever solutions? I would be glad to know your thoughts!
 
 # References
-[Spring Docs](https://docs.spring.io/spring-framework/reference/core/beans/dependencies/factory-collaborators.html)
-
-[Criticism and disadvantages of dependency injection](https://softwareengineering.stackexchange.com/questions/371722/criticism-and-disadvantages-of-dependency-injection)
-
-[Inversion of Control (IOC)](https://en.wikipedia.org/wiki/Inversion_of_control)
+- [Spring Docs](https://docs.spring.io/spring-framework/reference/core/beans/dependencies/factory-collaborators.html)
+- [Criticism and disadvantages of dependency injection](https://softwareengineering.stackexchange.com/questions/371722/criticism-and-disadvantages-of-dependency-injection)
+- [Inversion of Control (IOC)](https://en.wikipedia.org/wiki/Inversion_of_control)
 

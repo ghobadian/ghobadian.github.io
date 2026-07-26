@@ -209,8 +209,6 @@ All These questions are answered in the book. I don't provide answer to make you
 > Our lives should be measured not by how many enemies we have conquered, but by how many friends we have made. That is the secret to our survival.
 
 # References
-[Survival of the Friendliest](https://amzn.eu/d/6ULmd3T)
-
-[The Millennium Project](https://millennium-project.org/): The Millennium Project75 is a think tank that ranks the fifteen biggest global challenges every year.
-
-[Bplus Podcast](https://bpluspodcast.com/podcast/fourth-season/%D8%A8%D9%82%D8%A7%DB%8C-%D8%AF%D9%88%D8%B3%D8%AA%D8%A7%D9%86%D9%87-%D8%AA%D8%B1%DB%8C%D9%86/)
+- [Survival of the Friendliest](https://amzn.eu/d/6ULmd3T)
+- [The Millennium Project](https://millennium-project.org/): The Millennium Project75 is a think tank that ranks the fifteen biggest global challenges every year.
+- [Bplus Podcast](https://bpluspodcast.com/podcast/fourth-season/%D8%A8%D9%82%D8%A7%DB%8C-%D8%AF%D9%88%D8%B3%D8%AA%D8%A7%D9%86%D9%87-%D8%AA%D8%B1%DB%8C%D9%86/)
